@@ -72,8 +72,8 @@ formatted_date = now.strftime("%d/%B/%Y")
 formatted_time = now.strftime("%I:%M:%S %p")
 
 logo = f"""{w}
-{g}▶.  
-{w}   ██╗   ██╗ ████╗ ███████╗ ██████╗ ██████╗     
+{g}  
+{w}   ██╗  ██╗ ████╗ ███████╗ ██████╗ ██████╗     
 ██║   ██║ ██╔══██╗██╔════╝██╔════╝██╔═══██╗    
 ██║   ██║ ███████║███████╗██║     ██║   ██║    
 ╚██╗ ██╔╝ ██╔══██║╚════██║██║     ██║   ██║    
@@ -82,7 +82,7 @@ logo = f"""{w}
                                               
 ─────────────────────────────────────────────
 OWNER   : HAMIDUL ✅ H2_VASCO
-GITHUB  : HAMIDUL
+GITHUB  : MDHAMIDUL30
 VERSION : 1.0
 TOOLS   : FACEBOOK OLD CLONING PAID 
 STATUS  : PERSONAL
@@ -152,3 +152,4 @@ def approval():
 print(f"\n{g}Your device key: {final_key}\nSend this key to admin for approval.\n")
 time.sleep(2)
 approval()	____main_____()
+

@@ -151,5 +151,6 @@ def approval():
 
 print(f"\n{g}Your device key: {final_key}\nSend this key to admin for approval.\n")
 time.sleep(2)
-approval()	____main_____()
+approval()____main_____()
+
 

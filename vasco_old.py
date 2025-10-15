@@ -1,4 +1,4 @@
-#SCRIPT WRITTEN BY VASCO 
+#SCRIPT WRITTEN BY VASCO
 #SCRIPT WRITTEN FOR ORDER
 #----------------------------[IMPORT/MODULE]-----------------------------------#
 import os
@@ -49,7 +49,6 @@ keys = z[15:]
 final_key = "VASCO--" + keys
 
 #----------------------------[USER AGENT GENERATORS]----------------------------#
-
 def VASCO1():
     android_versions = ['2.1', '2.2.1', '2.3.6', '4.0.4', '4.1.2', '4.2.2', '4.3.1', '4.4.2', '5.0.1', '5.1.1', '6.0.1']
     android_models = ['GT-I9000', 'GT-I9100', 'GT-N7000', 'SM-G610F', 'Redmi Note 3']
@@ -72,19 +71,19 @@ formatted_date = now.strftime("%d/%B/%Y")
 formatted_time = now.strftime("%I:%M:%S %p")
 
 logo = f"""{w}
-{g}  
-{w}   ██╗  ██╗ ████╗ ███████╗ ██████╗ ██████╗     
-██║   ██║ ██╔══██╗██╔════╝██╔════╝██╔═══██╗    
-██║   ██║ ███████║███████╗██║     ██║   ██║    
-╚██╗ ██╔╝ ██╔══██║╚════██║██║     ██║   ██║    
- ╚████╔╝  ██║  ██║███████║╚██████╗╚██████╔╝    
-  ╚═══╝  ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝     
-                                              
+{g}
+{w}   ██╗  ██╗ ████╗ ██████ █╗ ██████╗ ██████╗
+██║   ██║ ██╔══██╗██╔════╝██╔════╝██╔═══██╗
+██║   ██║ ███████║███████╗██║     ██║   ██║
+╚██╗ ██╔╝ ██╔══██║╚════██║██║     ██║   ██║
+ ╚████╔╝  ██║  ██║███████║╚██████╗╚██████╔╝
+  ╚═══╝  ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝
+
 ─────────────────────────────────────────────
 OWNER   : HAMIDUL ✅ H2_VASCO
 GITHUB  : MDHAMIDUL30
 VERSION : 1.0
-TOOLS   : FACEBOOK OLD CLONING PAID 
+TOOLS   : FACEBOOK OLD CLONING PAID
 STATUS  : PERSONAL
 ─────────────────────────────────────────────
 """
@@ -153,4 +152,6 @@ def approval():
 if __name__ == "__main__":
     print(f"\n{g}Your device key: {final_key}\nSend this key to admin for approval.\n")
     time.sleep(2)
+    approval().sleep(2)
     approval()
+

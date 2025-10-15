@@ -148,8 +148,8 @@ def approval():
         print(f"{r}[ERROR] CHECK INTERNET CONNECTION!")
         sys.exit()
 
-#-----------------------------[START]-----------------------------------#
+#-----------------------------[START SCRIPT]-----------------------------------#
 if __name__ == "__main__":
     print(f"\n{g}Your device key: {final_key}\nSend this key to admin for approval.\n")
     time.sleep(2)
-    approval()100000000
+    approval()
